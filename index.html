@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>THE GLOBAL MTB Quiz</title>
+</head>
+<body>
+    <img src="img/gmbn-globe-logo.png" alt="GMBN logo">
+    <div id="quizContainer" class="container">
+        <h1 class="title">THE GLOBAL MTB QUIZ</h1>
+        <div id="question" class="question"></div>
+        <div class="grid-container">
+            <div class="option">
+                <input type="radio" name="option" value="1">
+                <label><span id="opt1"></span></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" value="2">
+                <label><span id="opt2"></span></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" value="3">
+                <label><span id="opt3"></span></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" value="4">
+                <label><span id="opt4"></span></label>
+            </div>
+        </div>
+        <button id="previous" class="previous-btn">Previous</button>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next</button>
+        <div id="result" class="container result" style="display: none;"></div>
+    </div>
+    <script type="text/javascript" src="question.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
