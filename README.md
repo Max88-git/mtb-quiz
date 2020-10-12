@@ -1,6 +1,6 @@
 # MTB Quiz App
 
-A mountain bike multiple choice Javascript quiz application.
+A mountain bike multiple choice JavaScript quiz application.
 
 # What I Learnt
 
