@@ -53,9 +53,13 @@ img {
     padding: 10px 10px;
     margin: 0px;
     vertical-align: middle;
-    background: #fff;
+    background-color: #fff;
     color: #2f2820;
     border-radius: .5em;
+}
+
+input[type=radio] {
+    margin: 0 5px 0 0;
 }
 
 input[type=radio], label {
@@ -63,7 +67,7 @@ input[type=radio], label {
 }
 
 .option:hover {
-    background: #f0f0f0;
+    background-color: #f0f0f0;
     color: #000;
     cursor: pointer;
 }
@@ -80,10 +84,11 @@ input[type=radio], label {
     float: right;
     padding: 0;
     margin: 20px 0px;
+    transition: all 0.3s ease 0s;
 }
 
 .next-btn:hover {
-    background: #fff;
+    background-color: #fff;
     color: #404040;
 }
 
@@ -95,9 +100,4 @@ input[type=radio], label {
     font-size: 3.75em;
     border-radius: .2em;
     color: #fff;
-}
-
-.option input:checked .option{
-    background: #000;
-    color: #000;
 }
